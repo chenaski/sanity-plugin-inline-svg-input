@@ -79,15 +79,20 @@
     "rimraf": "^5.0.5",
     "sanity": "^3.19.2",
     "styled-components": "^6.1.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "yalc": "1.0.0-pre.53"
   },
   "peerDependencies": {
+    "@sanity/ui": "^1",
     "react": "^18",
     "sanity": "^3",
-    "styled-components": "^5 || ^6",
-    "@sanity/ui": "^1"
+    "styled-components": "^5 || ^6"
   },
   "engines": {
     "node": ">=14"
+  },
+  "volta": {
+    "node": "20.15.0",
+    "pnpm": "9.4.0"
   }
 }
