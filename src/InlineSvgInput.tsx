@@ -1,8 +1,8 @@
+import { studioTheme, ThemeProvider, usePrefersDark, useTheme } from '@sanity/ui'
+import DOMPurify from 'dompurify'
 import { ChangeEvent, useEffect, useRef } from 'react'
 import { set, StringInputProps, unset } from 'sanity'
 import styled, { css } from 'styled-components'
-import DOMPurify from 'dompurify'
-import { studioTheme, ThemeProvider, usePrefersDark, useTheme } from '@sanity/ui'
 
 const Container = styled.div`
   --svg-bg-color: rgba(23, 23, 23, 0.05);

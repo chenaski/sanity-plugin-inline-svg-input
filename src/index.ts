@@ -1,7 +1,8 @@
 import { definePlugin } from 'sanity'
-import { inlineSvgType } from './inlineSvgType'
+
 import { InlineSvgPreviewComponent } from './InlineSvgPreviewComponent'
 import { InlineSvgPreviewItem } from './InlineSvgPreviewItem'
+import { inlineSvgType } from './inlineSvgType'
 
 export interface InlineSvgInputConfig {}
 

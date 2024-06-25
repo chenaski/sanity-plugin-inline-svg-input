@@ -1,6 +1,6 @@
 import DOMPurify from 'dompurify'
-import styled from 'styled-components'
 import { CSSProperties } from 'react'
+import styled from 'styled-components'
 
 const InlineSvgPreview = styled.div`
   svg {

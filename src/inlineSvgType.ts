@@ -1,4 +1,5 @@
 import { defineType } from 'sanity'
+
 import { InlineSvgInput } from './InlineSvgInput'
 
 export const inlineSvgType = defineType({

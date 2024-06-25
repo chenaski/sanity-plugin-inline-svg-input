@@ -1,6 +1,7 @@
-import { InlineSvgPreviewComponent } from './InlineSvgPreviewComponent'
-import styled, { css } from 'styled-components'
 import { PreviewLayoutKey, PreviewProps } from 'sanity'
+import styled, { css } from 'styled-components'
+
+import { InlineSvgPreviewComponent } from './InlineSvgPreviewComponent'
 
 const Container = styled.div`
   display: flex;
